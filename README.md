@@ -8,7 +8,7 @@ Dataset Distillation (DD), a newly emerging field, aims at generating much small
 
 <div align=center><center><img src="figs/intro_log.png" align="middle" width="50%"></center></div>
 
-<div align=center><center>Performance of condensed dataset for training ConvNet-3 v.s. GPU hours on CIFAR-10 10 images per class with a single RTX-2080 GPU.</center></div>
+<div align=center><center>Performance of condensed dataset v.s. GPU hours.</center></div>
 
 ## Datasets
 
