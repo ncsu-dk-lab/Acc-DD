@@ -37,7 +37,7 @@ python pretrain.py -d [dataset] --nclass [nclass] -n [network] --pt_from [epoch]
 
 ### Optimize Condensed Data
 
-Synthesize condensed data with factor 2 and 10 images per class on CIFAR-100, run the following codes:
+Synthesize condensed data, run the following codes:
 
 ```
 python condense.py --reproduce -d [dataset] -f [factor] --ipc [ipc] -n [network] --model_path [path] 
