@@ -31,8 +31,8 @@ python pretrain.py -d [dataset] --nclass [nclass] -n [network] --pt_from [epoch]
 - ```--nclass```: the number of classes in training dataset.
 - ```-n```: the network of early-stage models. ```-n convnet``` for CIFAR-10 and CIFAR-100, ```-n resnetap``` for ImageNet-10 and ImageNet-100.
 - ```--pt_from```: the epochs of pretraining. ```--pt_from 2``` for CIFAR-10 and CIFAR-100, ```--pt_from 10``` for ImageNet-10 and ImageNet-100.
-- ```--seed```: the random seed of model and ```--aug_type``` can be selected from color, crop, cutout, flip, scale and rotate and joined with '-', like ```--aug_type color_crop_cutout_flip_scale_rotate```.
-- ```--aug_type```: the data augmentation of training.
+- ```--seed```: the random seed of model. 
+- ```--aug_type```: the data augmentation of training and ```--aug_type``` can be selected from color, crop, cutout, flip, scale and rotate and joined with '-', like ```--aug_type color_crop_cutout_flip_scale_rotate```.
 - You can also modify more hyper-parameters including model number, optimizer, weight decay, etc to increase the diversity of models.
 
 ### Optimize Condensed Data
